@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5763583600988211167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5763583600988211164}
+  - component: {fileID: 5763583600988211165}
+  - component: {fileID: 5763583600988211162}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5763583600988211164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763583600988211167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5763583600988211165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763583600988211167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: e8806759a8762ad428ce281f17c63b0d, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &5763583600988211162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5763583600988211167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0b9441dca3ec044b0a541def7a7405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HorizontalMapPadding: 5
+  VerticalMapPadding: 5
+  Player: {fileID: 0}
+  MarksmanSpawner: {fileID: 5790072066436808124, guid: ae84e1d49f68a08479eb804ab4926918, type: 3}
+  MarksmanSpawnsCount: 1
+  MarksmanSpawnIncrement: 1
+  RoundsToIncreaseMarksmanSpawners: 2
+  BomberSpawner: {fileID: 278557641927876660, guid: 1c7ef1082c1628d4f96d5d26530c47d8, type: 3}
+  BomberSpawnsCount: 1
+  BomberSpawnIncrement: 1
+  RoundsToIncreaseBomberSpawners: 4
+  UIManager: {fileID: 0}
+  AmmoBonus: 10
+  AmmoPrice: 6
+  MaxAmmoBonus: 10
+  _maxAmmoPrice: 3
+  AmmoPriceIncrement: 3
+  HealthBonus: 20
+  HealthPrice: 6
+  MaxHealthBonus: 20
+  _maxHealthPrice: 3
+  HealthPriceIncrement: 3
+  MinBounds: {x: 0, y: 0}
+  MaxBounds: {x: 0, y: 0}
+  AllSpawnCount: 0
+  CurrentSpawnCount: 0
